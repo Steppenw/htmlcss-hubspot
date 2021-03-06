@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 82%;
+  margin: auto;
+}
+
+.row {}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*nav*/
+/*nav-top*/
+.nav-top {
+  background-color: rgb(244, 249, 253);
+  line-height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.column {
+  float: left;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: black;
+  padding: 30px 16px;
+}
+
+.nav-top .container .col-2:nth-child(2) ul li {
+  display: block;
+  float: right;
+}
+
+.nav-top .container .col-2:nth-child(2) ul li a {
+  padding: 8px 16px;
+  margin-left: 25px;
+}
+
+.button {
+  border-radius: 8px;
+}
+
+.pink {
+  background-color: rgb(254, 119, 90);
+  color: white;
+}
+
+.border-green {
+  border: 1px solid green;
+  color: green;
+}
+
+/*nav-bott*/
+.nav-bott {
+  line-height: 80px;
+}
+
+.nav-bott img {
+  vertical-align: middle;
+}
+
+.nav-bott ul li {
+  display: block;
+  float: right;
+}
+
+/*hero*/
+.hero {
+  background: url('../img/jumbotron.png');
+  background-size: cover;
+  height: 578px;
+}
+
+.hero .col-2 {
+  padding-top: 80px;
+}
+
+.hero .col-2 * {
+  margin-bottom: 30px;
+}
+
+.hero span {
+  display: block;
+}
+
+.big.button.pink {
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+}
+
+.break {
+  height: 80px;
+  background-color: rgb(175, 235, 228);
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: rgb(51, 71, 91);
+}
+
+/*main*/
+main {
+  background-color: rgb(244, 249, 253);
+  padding: 30px 0;
+  text-align: center;
+}
+
+/*main-top*/
+section.main-top .row {
+  padding: 0 15%;
+}
+
+section.main-top .row img {
+  width: 20%;
+}
+
+section.main-top .row span {
+  display: inline-block;
+  margin: 30px 0;
+}
+
+/*main-middle*/
+section.main-middle .row {
+  background-color: white;
+  padding: 5% 10% 5% 5%;
+}
+
+.col-3 {
+  width: 33.33%;
+}
+
+.col-spcl {
+  width: 66.67%;
+  text-align: left;
+}
+
+.main-middle .column > * {
+  margin-bottom: 30px;
+}
+
+.main-middle .col-3 img {
+  width: 35%;
+}
+
+.medium.button.pink {
+  padding: 16px 32px;
+  display: inline-block;
+}
+
+.main-middle .col-spcl span {
+  display: inline-block;
+}
+
+.col-spcl div.txt {
+  width: 40%;
+}
+
+.col-spcl div.rule {
+  width: 60%;
+  padding-top: 10.5px;
+}
