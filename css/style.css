@@ -134,7 +134,7 @@ section.main-top .row img {
   width: 20%;
 }
 
-section.main-top .row span {
+section.main-top .row span, section.offers .row > span {
   display: inline-block;
   margin: 30px 0;
 }
@@ -149,7 +149,7 @@ section.main-middle .row {
   width: 33.33%;
 }
 
-.col-spcl {
+.dbl-col-3 {
   width: 66.67%;
   text-align: left;
 }
@@ -167,15 +167,15 @@ section.main-middle .row {
   display: inline-block;
 }
 
-.main-middle .col-spcl span {
+.main-middle .dbl-col-3 span {
   display: inline-block;
 }
 
-.col-spcl div.txt {
+.dbl-col-3 div.txt {
   width: 40%;
 }
 
-.col-spcl div.rule {
+.dbl-col-3 div.rule {
   width: 60%;
   padding-top: 10.5px;
 }
