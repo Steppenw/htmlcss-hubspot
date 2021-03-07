@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/utilities.css">
-  <link rel="stylesheet" href="css/after_main.css">
+  <!--<link rel="stylesheet" href="css/utilities.css">-->
+  <!--<link rel="stylesheet" href="css/after_main.css">-->
   <title>HubSpot</title>
 </head>
 <body>
@@ -98,14 +98,14 @@
               </div>
             </div>
           </div>
-        </div>  
+        </div>
       </section>
 
     </div>
   </main>
 
-  <!-- M'accorgo che le due sezioni a seguire sarebbero potute figurare nel <main>. Dovrei rinominare diverse cose. Magari dopo. -->
-    <section class="offers">
+  <!-- M'accorgo che le due sezioni a seguire sarebbero potute figurare come 'main-middle' e 'main-bottom' nel <main>. Dovrei rinominare diverse cose e correggere i selettori. Magari dopo. -->
+  <section class="offers">
       <div class="container">
         <div class="row">
           <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores harum exercitationem, rem quaerat error.</h2>
@@ -118,43 +118,95 @@
             </div>
             <div class="column col-4">
               <img src="img/homepage_community_blog.svg" alt="blog" />
-              <span>150 +</span>
+              <span>4.5M +</span>
               <span>Lorem ipsum</span>
             </div>
             <div class="column col-4">
               <img src="img/homepage_community_academy.svg" alt="academy" />
-              <span>150 +</span>
+              <span>155K +</span>
               <span>Lorem ipsum</span>
             </div>
             <div class="column col-4">
               <img src="img/homepage_community_inbound.svg" alt="inbound" />
-              <span>150 +</span>
+              <span>21K +</span>
               <span>Lorem ipsum</span>
             </div>
             <div class="column col-4">
               <img src="img/homepage_community_connect.svg" alt="connect" />
-              <span>150 +</span>
+              <span>200 +</span>
               <span>Lorem ipsum</span>
             </div>
             <div class="column col-4">
               <img src="img/homepage_community_globe.svg" alt="globe" />
-              <span>150 +</span>
+              <span>6 +</span>
               <span>Lorem ipsum</span>
             </div>
             <div class="column col-4">
               <img src="img/homepage_community_followers.svg" alt="chat" />
-              <span>150 +</span>
+              <span>2.6M +</span>
               <span>Lorem ipsum</span>
             </div>
             <div class="column col-4">
               <img src="img/growthhub-white-small-1.svg" alt="growth" />
-              <span>150 +</span>
+              <span>5K +</span>
               <span>Lorem ipsum</span>
             </div>
           </div>
         </div>
       </div>
-    </section>
+  </section>
+
+  <section class="partners">
+      <div class="container">
+        <div class="clearfix"><!-- Perché con un solo 'clearfix' per le quattro 'col-2' non ottengo lo stesso risultato, ovvero si sparpagliano? -->
+          <div class="column col-2">
+            <div>
+              <h2>64,500</h2>
+              <span>Lorem ipsum <br />dolor sit <br />amet consectetur.</span>
+            </div>
+          </div>
+          <div class="column col-2"><!-- Da rivedere per allinearli -->
+            <div class="logos clearfix">
+              <div class="column col-4">
+                <img src="img/Atlassian-horizontal-blue@2x.webp" alt="atlassian" />
+              </div>
+              <div class="column col-4">
+                <img src="img/doordash_owler_20181011_194113_original@2x.webp" alt="doordash" />
+              </div>
+              <div class="column col-4">
+                <img src="img/g2crowd-logo@2x.webp" alt="g2" />
+              </div>
+              <div class="column col-4">
+                <img src="img/purple-logo@2x.png" alt="purple" />
+              </div>
+              <div class="column col-4">
+                <img src="img/Subaru_Logo_v2_186x63@2x.webp" alt="subaru" />
+              </div>
+              <div class="column col-4">
+                <img src="img/Wistia_logo@2x.webp" alt="wistia" />
+              </div>
+              <div class="column col-4">
+                <img src="img/Classpass-logo@2x.webp" alt="classpass" />
+              </div>
+              <div class="column col-4">
+                <img src="img/VMware_logo_gry_RGB_300dpi@2x.webp" alt="vmware" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix">
+          <div class="column col-2">
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione praesentium totam obcaecati temporibus nihil neque quibusdam fugit aliquid quaerat!</span>
+            <a class="big button pink" href="#">GetHubspotFree</a>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+          </div>
+          <div class="column col-2">
+            <img src="img/woman.webp" alt="woman"><!-- Il trattamento riservato a questa immagine è quello più adeguato. Andrebbero riviste quelle precedenti. Magari dopo. -->
+          </div>
+        </div>
+      </div>       
+  </section>
   
 </body>
 </html>
