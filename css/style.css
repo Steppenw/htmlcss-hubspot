@@ -24,9 +24,12 @@ a {
 
 /*nav*/
 /*nav-top*/
+nav > * {
+  line-height: 80px;
+}
+
 .nav-top {
   background-color: rgb(244, 249, 253);
-  line-height: 80px;
   border-bottom: 1px solid black;
 }
 
@@ -38,8 +41,8 @@ a {
   width: 50%;
 }
 
-nav ul li {
-  display: inline-block;
+nav ul {
+  list-style-type: none;
 }
 
 nav ul li a {
@@ -47,8 +50,11 @@ nav ul li a {
   padding: 30px 16px;
 }
 
+.nav-top .container .col-2:nth-child(1) ul li {
+  float: left;
+}
+
 .nav-top .container .col-2:nth-child(2) ul li {
-  display: block;
   float: right;
 }
 
@@ -72,16 +78,15 @@ nav ul li a {
 }
 
 /*nav-bott*/
-.nav-bott {
-  line-height: 80px;
-}
-
 .nav-bott img {
   vertical-align: middle;
 }
 
+.nav-bott ul {
+  display: inline;
+}
+
 .nav-bott ul li {
-  display: block;
   float: right;
 }
 
@@ -299,14 +304,16 @@ section.partners span {
   display: block;
 }
 
-section.partners img {
+section.partners .logos img {
+  width: 130px;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+section.partners .clearfix:nth-child(2) .col-2:nth-child(2) img {
   width: 42%;
   display: block;
   margin: 0 auto;
-}
-
-section.partners .logos img {
-  width: 80%;
 }
 
 /*footer*/
