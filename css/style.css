@@ -189,9 +189,15 @@ main .column.col-3 img {
   width: 40%;
 }
 
+.rule {
+  padding: 4px 0;
+  border-style: solid;
+  border-color: grey;
+  border-width: 0 0 2px;
+}
+
 .dbl-col-3 div.rule {
   width: 60%;
-  padding-top: 10.5px;
 }
 
 .main-middle .dbl-col-3 ul li {
@@ -327,10 +333,6 @@ footer .column.col-4 {
 
 footer .row {
   margin: 0 -1.5%;
-}
-
-footer div.content {
-  background-color: rgb(50, 73, 91);
 }
 
 footer div.content h4 {
