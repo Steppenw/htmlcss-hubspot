@@ -23,11 +23,24 @@ a {
 }
 
 /*nav*/
-/*nav-top*/
 nav > * {
   line-height: 80px;
 }
 
+nav ul {
+  list-style-type: none;/*Per la seconda colonna in 'nav-top' e 'nav-bott'*/
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: black;
+  padding: 30px 16px;
+}
+
+/*nav-top*/
 .nav-top {
   background-color: rgb(244, 249, 253);
   border-bottom: 1px solid black;
@@ -41,20 +54,7 @@ nav > * {
   width: 50%;
 }
 
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li a {
-  color: black;
-  padding: 30px 16px;
-}
-
-.nav-top .container .col-2:nth-child(1) ul li {
-  float: left;
-}
-
-.nav-top .container .col-2:nth-child(2) ul li {
+.nav-top .container .col-2:nth-child(2) ul {
   float: right;
 }
 
@@ -83,10 +83,6 @@ nav ul li a {
 }
 
 .nav-bott ul {
-  display: inline;
-}
-
-.nav-bott ul li {
   float: right;
 }
 
@@ -139,6 +135,7 @@ main ul, footer ul {
 main ul {
   text-align: left;
 }
+
 /*main-top*/
 section.main-top .row {
   padding-left: 15%;
@@ -289,11 +286,13 @@ section.offers .column.col-4 > span:first-of-type {
 section.partners .clearfix:nth-child(1) .col-2:nth-child(1) {
   text-align: center;
 }
+
 section.partners .column.col-2 > div span:first-of-type {
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 30px;
 }
+
 section.partners .clearfix:nth-child(1) .col-2:nth-child(1) h2 {
   margin-bottom: 30px;
 }
